@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 # Install
 
-$ yarn add echarts echarts-for-react
+$ `yarn add echarts echarts-for-react`
 
 We will add echarts to the project
 
