@@ -26,7 +26,11 @@ You may also see any lint errors in the console.
 
 ScreenShot of Scatter Chart
 
-<img src="images/Scatter.png">
+<img src="src\images\Scatter.png">
+
+ScreenShot of Bar Chart
+
+<img src="src\images\Bar.png">
 
 
 
