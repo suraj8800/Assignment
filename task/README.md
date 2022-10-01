@@ -26,8 +26,7 @@ You may also see any lint errors in the console.
 
 ScreenShot of Scatter Chart
 
-![](images/Screenshot%20Scatter%20chart.png)
-
+<img src="images/Scatter.png">
 
 
 
