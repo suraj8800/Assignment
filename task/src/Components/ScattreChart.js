@@ -1,21 +1,22 @@
 import React from 'react'
-import Data from "../Json_Server/Wine-Data.json"
+import Data from "../JsonServer/Wine-Data.json"
 import ReactEcharts from "echarts-for-react"; 
 
 
 function ScatterChart() {
+
+  //extract color intensity from wine data set
   const ColorIntensity = Data.map(data => {
     return data['Color intensity']
   })
-
+  
+  // extract hue from wine data set
   const Hue = Data.map(data => {
     return data.Hue
   })
-
-
-
-  console.log(ColorIntensity)
-  console.log(Hue);
+  
+  // console.log(ColorIntensity)
+  // console.log(Hue);
 
   const option = {
     xAxis: {

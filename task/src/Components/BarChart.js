@@ -1,29 +1,30 @@
 // import React from 'react'
 import ReactEcharts from "echarts-for-react"; 
-import Data from "../Json_Server/Wine-Data.json"
+import Data from "../JsonServer/Wine-Data.json"
 
 
 
  function BarChart() {
 
+  // extract Alcohol from wine data set
   const Alcohol = Data.map(data => {
     return data.Alcohol;
   } )
-//   console.log( "Alochol", Alcohol)
 
+  // Remove duplicate values
   let UniqueAlcohol = [... new Set(Alcohol)]
-//   console.log( "Unique", UniqueAlcohol)
-
   
+  // extract Malic Acid from wine data set
   const MalicAcid = Data.map(data => {
     return data["Malic Acid"];
   } )
-//   console.log( "Malic Acoid",MalicAcid)
+
+  //   console.log("Alcohol", Alcohol);
+  //   console.log( "Unique", UniqueAlcohol);
+  //   console.log( "Malic Acoid",MalicAcid);
   
 
     const option = {
-
-      
 
       xAxis: {
         type: 'category',
